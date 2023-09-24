@@ -172,7 +172,6 @@ int main(void)
 	  }
   }
   int counter = 0;
-  int counter7seg = 9;
   while (1)
   {
 	  if(counter >= 0 && counter <= 5)
@@ -226,14 +225,8 @@ int main(void)
 	 	 	 {
 	 	 		 counter= 0;
 	 	 	 }
-	 	if(counter7seg < 0)
-	 		 	 	 {
-	 		 	 		 counter7seg= 0;
-	 		 	 	 }
-
-	 	 Display7SEG(counter7seg);
+	 	 Display7SEG(counter);
 	 	 	 counter++;
-	 	 	 counter7seg--;
 	 	 HAL_Delay(1000);
 //end
     /* USER CODE END WHILE */
