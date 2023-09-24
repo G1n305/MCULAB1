@@ -92,22 +92,21 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   int counter=0;
+  int current_led=0;
   while (1)
   {
-	  if(counter>=0 && counter <=2)
-	  	 {
-	  		 HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, GPIO_PIN_RESET);
-	  		 HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, GPIO_PIN_SET);
-	  	 }
-	  if(counter>=3 && counter <=4)
+	  if(current_led == 0)
 	  	 {
 	  		 HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, GPIO_PIN_SET);
 	  		 HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, GPIO_PIN_RESET);
 	  	 }
-	  counter++;
-	  if(counter > 4) counter=0;
-	  	 HAL_Delay(1000);
-
+	  	 else
+	  	 {
+	  		 HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, GPIO_PIN_RESET);
+	  		 HAL_GPIO_WritePin(LED_YELLOW_GPIO_Port, LED_YELLOW_Pin, GPIO_PIN_SET);
+	  	 }
+	  	 HAL_Delay(2000);
+	  	 current_led = !current_led;
 	  /*
 		 if(counter >= 0 && counter < 5)
 		 {
@@ -132,7 +131,7 @@ int main(void)
 		 	 }
 		 	 counter++;
 		 	 */
-		 //HAL_Delay(1000);
+		 HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
