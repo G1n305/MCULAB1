@@ -275,46 +275,13 @@ int main(void)
   }
   //HAM SUPPORT
   //*
-int roundDownToNearest5(int num) {
-        int quotient = num / 5;
-        int roundedNum = quotient * 5;
-        return roundedNum;
-    }
-int hourChange(int hour){
-  	int validHour;
-  	if(hour > 11){
-  		if(hour == 12 || hour==24){
-  			validHour=0;
-  		}
-  		validHour=hour-12;
-  	}
-  		return validHour;
-  }
-int hour = 16;
-int min = 55;
-int sec = 0;
   while (1)
   {
-	  //display
-	  	    turnOffAllLEDs();
-	  	    setNumberOnClock(hourChange(hour));
-	  	    setNumberOnClock60(roundDownToNearest5(min));
-	  	    setNumberOnClock60(roundDownToNearest5(sec));
-
-	  	    //logic
-	  	    sec++;
-	  	    if(sec==60){
-	  	    	sec=0;
-	  	    	min++;
-	  	    	if(min==60){
-	  	    		min=0;
-	  	    		hour++;
-	  	    		hourChange(hour);
-	  	    		}
-	  	    	}
-
-	  	    HAL_Delay(100);
-
+	   //test ham ex67
+	   clearNumberOnClock(counter);
+	  	  counter++;
+	  	  if(counter > 11) counter=0;
+	  	  HAL_Delay(1000);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
