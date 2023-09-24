@@ -103,7 +103,7 @@ int main(void)
   }
   void setNumberOnClock(int num) {
 	  if(num >= 0 && num <= 11){
-		  turnOffAllLEDs();
+		  //turnOffAllLEDs();
 		  switch(num){
 		  case 0:
 			  HAL_GPIO_WritePin(ZERO_GPIO_Port, ZERO_Pin, GPIO_PIN_RESET);
@@ -189,7 +189,7 @@ int main(void)
   }
   void clearNumberOnClock(int num){
 	  if(num >= 0 && num <= 11){
-		  turnOnAllLEDs();
+		  //turnOnAllLEDs();
 		  switch(num){
 		  case 0:
 			  HAL_GPIO_WritePin(ZERO_GPIO_Port, ZERO_Pin, GPIO_PIN_SET);
@@ -277,11 +277,7 @@ int main(void)
   //*
   while (1)
   {
-	   //test ham ex67
-	   clearNumberOnClock(counter);
-	  	  counter++;
-	  	  if(counter > 11) counter=0;
-	  	  HAL_Delay(1000);
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

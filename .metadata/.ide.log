@@ -512,3 +512,65 @@
 2023-09-24 23:13:23,335 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
 2023-09-24 23:13:23,335 [INFO] ApiDb:276 - Save user favorites file C:\Users\Admin/.stm32cubeide/favorites.mcus.txt: 0 item(s)
 2023-09-24 23:13:23,335 [INFO] ApiDb:280 - User favorites MCUs=[]
+2023-09-24 23:15:44,554 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 811982160 Bytes (922746880)
+2023-09-24 23:15:45,857 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 779646664 Bytes (922746880)
+2023-09-24 23:15:45,959 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 797001840 Bytes (922746880)
+2023-09-24 23:15:46,184 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2023-09-24 23:15:46,184 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2023-09-24 23:15:46,184 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2023-09-24 23:15:46,184 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2023-09-24 23:15:46,185 [INFO] CodeGenerator:663 - code generatio: config db path: D:\IDEmcu\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2023-09-24 23:15:46,449 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\MXTmpFiles\license.tmp_save
+2023-09-24 23:15:46,506 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\MXTmpFiles\license.tmp
+2023-09-24 23:15:46,621 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\MXTmpFiles\gpio.tmp_save
+2023-09-24 23:15:46,681 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\MXTmpFiles\gpio.tmp
+2023-09-24 23:15:46,715 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\Core\Src\stm32f1xx_it.c_save
+2023-09-24 23:15:46,802 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\Core\Src\stm32f1xx_it.c
+2023-09-24 23:15:46,805 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\Core\Inc\stm32f1xx_it.h_save
+2023-09-24 23:15:46,861 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\Core\Inc\stm32f1xx_it.h
+2023-09-24 23:15:46,873 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\Core\Src\stm32f1xx_hal_msp.c_save
+2023-09-24 23:15:46,946 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\Core\Src\stm32f1xx_hal_msp.c
+2023-09-24 23:15:46,948 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\MXTmpFiles\system.tmp_save
+2023-09-24 23:15:46,991 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\MXTmpFiles\system.tmp
+2023-09-24 23:15:47,002 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-09-24 23:15:47,091 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\Core\Inc\stm32f1xx_hal_conf.h
+2023-09-24 23:15:47,119 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\Core\Inc\main.h_save
+2023-09-24 23:15:47,194 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\Core\Inc\main.h
+2023-09-24 23:15:47,204 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\Core\Src\main.c_save
+2023-09-24 23:15:47,297 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\Core\Src\main.c
+2023-09-24 23:15:47,984 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 47mS.
+2023-09-24 23:15:47,986 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2023-09-24 23:15:48,387 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2023-09-24 23:15:50,073 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2087mS.
+2023-09-24 23:15:50,073 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2023-09-24 23:15:50,075 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2023-09-24 23:15:58,012 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 737261776 Bytes (1047527424)
+2023-09-24 23:15:58,255 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2023-09-24 23:15:58,255 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2023-09-24 23:15:58,255 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2023-09-24 23:15:58,256 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2023-09-24 23:15:58,256 [INFO] CodeGenerator:663 - code generatio: config db path: D:\IDEmcu\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2023-09-24 23:15:58,467 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\MXTmpFiles\license.tmp_save
+2023-09-24 23:15:58,546 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\MXTmpFiles\license.tmp
+2023-09-24 23:15:58,608 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\MXTmpFiles\gpio.tmp_save
+2023-09-24 23:15:58,664 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\MXTmpFiles\gpio.tmp
+2023-09-24 23:15:58,704 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\Core\Src\stm32f1xx_it.c_save
+2023-09-24 23:15:58,791 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\Core\Src\stm32f1xx_it.c
+2023-09-24 23:15:58,794 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\Core\Inc\stm32f1xx_it.h_save
+2023-09-24 23:15:58,844 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\Core\Inc\stm32f1xx_it.h
+2023-09-24 23:15:58,859 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\Core\Src\stm32f1xx_hal_msp.c_save
+2023-09-24 23:15:58,925 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\Core\Src\stm32f1xx_hal_msp.c
+2023-09-24 23:15:58,927 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\MXTmpFiles\system.tmp_save
+2023-09-24 23:15:58,969 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\MXTmpFiles\system.tmp
+2023-09-24 23:15:58,980 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-09-24 23:15:59,084 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\Core\Inc\stm32f1xx_hal_conf.h
+2023-09-24 23:15:59,111 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\Core\Inc\main.h_save
+2023-09-24 23:15:59,166 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\Core\Inc\main.h
+2023-09-24 23:15:59,177 [INFO] CodeEngine:239 - oldGeneratedFile, D:\lab1_Image\git\analogClock\Core\Src\main.c_save
+2023-09-24 23:15:59,278 [INFO] CodeEngine:257 - Generated code: D:\lab1_Image\git\analogClock\Core\Src\main.c
+2023-09-24 23:15:59,958 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 47mS.
+2023-09-24 23:15:59,960 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2023-09-24 23:16:00,352 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2023-09-24 23:16:01,724 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 1764mS.
+2023-09-24 23:16:01,724 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2023-09-24 23:16:01,725 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
