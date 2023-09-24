@@ -228,7 +228,7 @@ int main(void)
 	 	 Display7SEG(counter);
 	 	 	 counter++;
 	 	 HAL_Delay(1000);
-//end
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
